@@ -8,7 +8,8 @@ import umbrella from "../public/umbrella.png";
 import shield from "../public/shield.png";
 import file from "../public/file.png";
 import dfd from "../public/dfd.svg";
-import { ContactUs } from "./components/contectUs";
+import ContactUs from "./components/ContactUs";
+
 export default function Home() {
   return (
     <>
