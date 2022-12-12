@@ -97,7 +97,7 @@ export default function Home() {
             </h3>
           </div>
           <div className="flex items-baseline lg:mt-2">
-            <TiTick className="text-xl" />
+            <TiTick className="text-xl w-7 md:w-auto" />
             <h3 className="xl:text-lg 2xl:text-2xl lg:text-md capitalize text-slate-800 mt-1 font-medium md:w-10/12 ">
               transparency transactions within policy holder and insurance
               provider.
@@ -196,10 +196,10 @@ export default function Home() {
             the medical bills , health records or the previous processings , is
             justified on basis of terms and conditions specified by the
             insurance company which leads to the further decisions by the smart
-            contract to generate transactions that are recorded on the ledge
+            contract to generate transactions that are recorded on the ledge.
           </p>
           <p className="text-xl font-pera-font font-medium leading-[40px] xl:max-w-6xl md:text-xl md:pr-10 lg:max-w-4xl my-10">
-            a system based on smart contracts can be put into motion to improve
+            A system based on smart contracts can be put into motion to improve
             the process of claim management. When a particular event that meets
             the terms and conditions of the contract/policy occurs, the smart
             contract automatically executes/Triggers payments to relevant
@@ -353,13 +353,6 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-          </div>
-
-          <div className="text-center p-4">
-            © 2021 Copyright:
-            <a className="text-whitehite" href="https://tailwind-elements.com/">
-              Tailwind Elements
-            </a>
           </div>
         </section>
       </footer>
