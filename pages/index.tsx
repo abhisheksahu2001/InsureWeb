@@ -50,9 +50,9 @@ export default function Home() {
                 Build on hyperledger fabric
               </h2>
             </span>
-            <button className="text-lg-color border border-lg-color hover:bg-lg-color hover:text-white w-44 rounded-[3px] h-12 tracking-wider duration-100 font-bold uppercase">
+            <a  href="#team" className="text-lg-color border border-lg-color hover:bg-lg-color hover:text-white w-44 rounded-[3px] h-12 tracking-wider duration-100 font-bold uppercase">
               Contact Team
-            </button>
+            </a>
           </span>
         </div>
       </section>
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
           <div className="flex items-baseline lg:mt-2">
             <TiTick className="text-xl" />
-            <h3 className="xl:text-lg 2xl:text-2xl lg:text-md capitalize text-slate-800 mt-1 font-medium  ">
+            <h3 className="xl:text-lg 2xl:text-2xl lg:text-md capitalize text-slate-800 mt-1 font-medium w-10/12 md:w-max ">
               transparency transactions within policy holder and insurance
               provider.
             </h3>
@@ -145,7 +145,7 @@ export default function Home() {
         </div>
       </section>
       <section className="pb-10 mb-10">
-        <div className="2xl:ml-80 xl:ml-60 lg:ml-40 md:ml-20 pt-40 max-w-6xl xl:max-w-7xl xl:pr-10 ml-20 px-10">
+        <div className="2xl:ml-80 xl:ml-60 lg:ml-40 md:ml-20 pt-40 max-w-6xl xl:max-w-7xl xl:pr-10 ml-5 px-2">
           <h3 className="uppercase font-bold">implementation</h3>
           <h2 className="text-2xl font-sub-heading font-bold  leading-[70px]  ">
             How Insurechain will work ?
@@ -168,7 +168,7 @@ export default function Home() {
             alt=""
             src={dfd}
           />
-          <p className="text-xl font-pera-font font-medium leading-[40px] xl:max-w-6xl md:text-xl md:pr-10 lg:max-w-4xl my-10">
+          <p className="text-lg md:text-xl font-pera-font font-medium leading-[40px] xl:max-w-6xl md:text-xl md:pr-10 lg:max-w-4xl my-10">
             Insure chain platform will be powered by Hyperleger fabric which is
             a enterprise-grade permissioned distributed ledger technology (DLT)
             platform . That makes our product’s architecture highly modular and
@@ -216,7 +216,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <footer className=" text-white  bg-slate-100 pt-20">
+      <footer className=" text-white  bg-slate-100 pt-20" id="team">
         <ContactUs />
         <section>
           <div className="container px-6 pt-6 mx-auto">
