@@ -50,7 +50,7 @@ export default function Home() {
                 Build on hyperledger fabric
               </h2>
             </span>
-            <a  href="#team" className="text-lg-color border border-lg-color hover:bg-lg-color hover:text-white w-44 rounded-[3px] h-12 tracking-wider duration-100 font-bold uppercase">
+            <a  href="#team" className="text-lg-color text-center pt-2.5 border border-lg-color hover:bg-lg-color hover:text-white w-44 rounded-[3px] h-12 tracking-wider duration-100 font-bold uppercase">
               Contact Team
             </a>
           </span>
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
           <div className="flex items-baseline lg:mt-2">
             <TiTick className="text-xl" />
-            <h3 className="xl:text-lg 2xl:text-2xl lg:text-md capitalize text-slate-800 mt-1 font-medium w-10/12 md:w-max ">
+            <h3 className="xl:text-lg 2xl:text-2xl lg:text-md capitalize text-slate-800 mt-1 font-medium md:w-10/12 ">
               transparency transactions within policy holder and insurance
               provider.
             </h3>
