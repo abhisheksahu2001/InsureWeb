@@ -9,6 +9,7 @@ import shield from "../public/shield.png";
 import file from "../public/file.png";
 import dfd from "../public/dfd.svg";
 import ContactUs from "./components/ContactUs";
+import arch from "../public/Arch.svg";
 
 export default function Home() {
   return (
@@ -198,6 +199,11 @@ export default function Home() {
             insurance company which leads to the further decisions by the smart
             contract to generate transactions that are recorded on the ledge
           </p>
+          <Image
+            className="2xl:2/3 xl:2/3 mt-20 lg:w-[75%] md:w-[70%] "
+            alt=""
+            src={arch}
+          />
           <p className="text-xl font-pera-font font-medium leading-[40px] xl:max-w-6xl md:text-xl md:pr-10 lg:max-w-4xl my-10">
             a system based on smart contracts can be put into motion to improve
             the process of claim management. When a particular event that meets
