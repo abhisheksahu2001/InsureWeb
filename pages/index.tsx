@@ -51,9 +51,9 @@ export default function Home() {
                 Build on hyperledger fabric
               </h2>
             </span>
-            <button className="text-lg-color border border-lg-color hover:bg-lg-color hover:text-white w-44 rounded-[3px] h-12 tracking-wider duration-100 font-bold uppercase">
+            <a  href="#team" className="text-lg-color text-center pt-2.5 border border-lg-color hover:bg-lg-color hover:text-white w-44 rounded-[3px] h-12 tracking-wider duration-100 font-bold uppercase">
               Contact Team
-            </button>
+            </a>
           </span>
         </div>
       </section>
@@ -98,8 +98,8 @@ export default function Home() {
             </h3>
           </div>
           <div className="flex items-baseline lg:mt-2">
-            <TiTick className="text-xl" />
-            <h3 className="xl:text-lg 2xl:text-2xl lg:text-md capitalize text-slate-800 mt-1 font-medium  ">
+            <TiTick className="text-xl w-7 md:w-auto" />
+            <h3 className="xl:text-lg 2xl:text-2xl lg:text-md capitalize text-slate-800 mt-1 font-medium md:w-10/12 ">
               transparency transactions within policy holder and insurance
               provider.
             </h3>
@@ -146,7 +146,7 @@ export default function Home() {
         </div>
       </section>
       <section className="pb-10 mb-10">
-        <div className="2xl:ml-80 xl:ml-60 lg:ml-40 md:ml-20 pt-40 max-w-6xl xl:max-w-7xl xl:pr-10 ml-20 px-10">
+        <div className="2xl:ml-80 xl:ml-60 lg:ml-40 md:ml-20 pt-40 max-w-6xl xl:max-w-7xl xl:pr-10 ml-5 px-2">
           <h3 className="uppercase font-bold">implementation</h3>
           <h2 className="text-2xl font-sub-heading font-bold  leading-[70px]  ">
             How Insurechain will work ?
@@ -169,7 +169,7 @@ export default function Home() {
             alt=""
             src={dfd}
           />
-          <p className="text-xl font-pera-font font-medium leading-[40px] xl:max-w-6xl md:text-xl md:pr-10 lg:max-w-4xl my-10">
+          <p className="text-lg md:text-xl font-pera-font font-medium leading-[40px] xl:max-w-6xl md:text-xl md:pr-10 lg:max-w-4xl my-10">
             Insure chain platform will be powered by Hyperleger fabric which is
             a enterprise-grade permissioned distributed ledger technology (DLT)
             platform . That makes our product’s architecture highly modular and
@@ -197,7 +197,7 @@ export default function Home() {
             the medical bills , health records or the previous processings , is
             justified on basis of terms and conditions specified by the
             insurance company which leads to the further decisions by the smart
-            contract to generate transactions that are recorded on the ledge
+            contract to generate transactions that are recorded on the ledge.
           </p>
           <Image
             className="2xl:2/3 xl:2/3 mt-20 lg:w-[75%] md:w-[70%] "
@@ -205,7 +205,7 @@ export default function Home() {
             src={arch}
           />
           <p className="text-xl font-pera-font font-medium leading-[40px] xl:max-w-6xl md:text-xl md:pr-10 lg:max-w-4xl my-10">
-            a system based on smart contracts can be put into motion to improve
+            A system based on smart contracts can be put into motion to improve
             the process of claim management. When a particular event that meets
             the terms and conditions of the contract/policy occurs, the smart
             contract automatically executes/Triggers payments to relevant
@@ -222,7 +222,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <footer className=" text-white  bg-slate-100 pt-20">
+      <footer className=" text-white  bg-slate-100 pt-20" id="team">
         <ContactUs />
         <section>
           <div className="container px-6 pt-6 mx-auto">
@@ -359,13 +359,6 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-          </div>
-
-          <div className="text-center p-4">
-            © 2021 Copyright:
-            <a className="text-whitehite" href="https://tailwind-elements.com/">
-              Tailwind Elements
-            </a>
           </div>
         </section>
       </footer>
