@@ -43,7 +43,7 @@ export default function Home() {
           </nav>
           <span className="  2xl:w-3/5 z-10 relative flex  justify-center flex-col py-40 ml-20 xl:pt-40 xl:ml-64 2xl:ml-80 2xl:pt-40 lg:ml-44 lg:pt-44 md:ml-44 md:pt-44">
             <h1 className=" text-lg-color text-3xl 2xl:text-8xl lg:text-5xl md:text-4xl font-extrabold font-heading-1 xl:text-6xl">
-              Insurechain is a decentralized Insurance platform
+              Insurechain is a Smart Insurance platform
             </h1>
             <span className="flex items-center my-4">
               {/* <MdOutlineBolt size={"3rem"} /> */}
